@@ -1,0 +1,58 @@
+
+body {
+    background-color: #f1f1f1;
+}
+
+#blogger-icon {
+    margin-right: 10px;
+}
+
+nav {
+    font-size: 1.5em;
+}
+
+.active {
+    font-weight: 600;
+}
+
+.navbar-brand {
+    font-size: 1.2em;
+    color: #5ad67d;
+}
+.navbar-brand:hover {
+    font-size: 1.2em;
+    color: #5ad67d;
+}
+
+#navbar-main-container {
+    margin-bottom:35px ;
+}
+
+input[type="date"] {
+    width: 100%;
+}
+
+
+#author, #date, #summary {
+    width: 100%;
+    border-radius: 5px;
+}
+
+td {
+    padding: 10px;
+}
+
+#blog {
+    border-radius: 5px;
+    padding: 5px;
+    width: 90%;
+    height: 200px;
+}
+
+h1#emptyPage {
+    padding: 10px;
+}
+
+#emptyContainer {
+height: 75vh;
+}

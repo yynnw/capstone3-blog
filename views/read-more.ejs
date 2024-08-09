@@ -1,0 +1,18 @@
+<%- include("partials/header.ejs") %>
+
+<div class="container bg-white border border-2 mt-5">
+    <p style="font-size: 25px; min-height: 73vh;"> <%= post.blog %> </p>
+</div>
+<div class="container d-flex justify-content-evenly mt-1">
+    <button style="background-color:#5ad67d ;" class="btn"><a style="color: rgb(0, 0, 0); text-decoration: none;" href="<%= `/edit/${id}` %>">Edit</a></button>
+    <button style="background-color:#5ad67d ;" class="btn"><a style="color: rgb(0, 0, 0); text-decoration: none;" href="<%= `/delete/${id}` %>">Delete</a></button>
+</div>
+
+
+
+
+
+
+
+
+<%- include("partials/footer.ejs") %>

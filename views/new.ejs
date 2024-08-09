@@ -1,0 +1,36 @@
+<%- include("partials/header.ejs") %> 
+
+<div class="container">
+    <form action="/submit" method="post">
+        <table>
+            <tr>
+        <td><label for="author">First and Last Name</label></td>
+        <td><input type="text" name="author" id="author"></td>
+    </tr>
+    <tr>
+        <td><label for="date">Date</label></td>
+        <td><input type="date" name="date" id="date"></td>
+    </tr>
+    <tr>
+        <td><label for="title">Title</label></td>
+        <td><input type="text" name="title" id="title"></td>
+    </tr>
+    <tr>
+        <td><label for="subtitle">Sub Title</label></td>
+        <td><input type="text" name="subtitle" id="subtitle"></td>
+    </tr>
+    <tr>
+        <td><label for="summary">Summary</label></td>
+        <td><textarea name="summary" id="summary" maxlength="200"></textarea>
+        <div class="form-text">200 characters max</div></td>
+    </tr>
+</table>
+</div>
+<div class="container">
+   <textarea name="blog" id="blog" placeholder="Share your thoughts..."></textarea>
+   <br>
+   <button style="background-color:#5ad67d;" class="btn btn-primary" type="submit">Submit</button>
+</div>
+</form>
+
+<%- include("partials/footer.ejs") %>
